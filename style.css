@@ -214,6 +214,7 @@ footer a {
 
 .footer-nav {
   list-style: none;
+  align-content: center;
 }
 
 .footer-nav a {
