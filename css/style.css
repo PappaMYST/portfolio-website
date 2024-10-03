@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  /* colors */
+  --primary: #fbfcff;
+  --secondary: #403b3a;
+  --accent: #bab5ba;
+
+  --ff: "Montserrat", sans-serif;
+  --h1: bold 4rem/1em var(--ff);
+  --h2: bold 3rem/1.2em var(--ff);
+  --h3: bold 2.25rem/1.2em var(--ff);
+  --h4: bold 1.5rem/1.6em var(--ff);
+  --big: 1.25rem/1.6em var(--ff);
+  --p: 1.25rem/1.6em var(--ff);
+  --small: 0.75rem/2em var(--ff);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--ff);
+  text-wrap: balance;
+  background: var(--primary);
+  color: var(--secondary);
+}
+
+h1 {
+  font: var(--h1);
+}
+h2 {
+  font: var(--h2);
+}
+h3 {
+  font: var(--h3);
+}
+h4 {
+  font: var(--h4);
+}
+.big {
+  font: var(--big);
+}
+p {
+  font: var(--p);
+}
+.small {
+  font: var(--small);
+}
+
+.container {
+  margin: 2rem;
+  overflow: hidden;
+}
+
+/* Nav Bar */
+#navbar {
+  padding: 20px;
+}
+
+#navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#navbar li {
+  display: inline;
+}
+
+#navbar a {
+  color: var(--secondary);
+  text-decoration: none;
+  font: var(--big);
+  padding-right: 20px;
+}
+
+.nav-left {
+  display: inline;
+  float: left;
+}
+
+.nav-right {
+  display: inline;
+  float: right;
+}
+
+/* Hero Section */
+.main {
+  float: left;
+  width: 50%;
+  color: var(--secondary);
+}
+
+.main h1 {
+  padding-right: 20px;
+}
+
+.main h4 {
+  padding-right: 20px;
+}
+
+.main p {
+  padding-right: 20px;
+}
+
+.aside {
+  float: right;
+  width: 50%;
+}
+
+.aside img {
+  max-width: 100%;
+  height: auto;
+}
+/* Skills */
+.skills-section {
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0 20px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 var(--accent);
+  padding: 16px;
+  text-align: left;
+  background-color: #f1f1f1;
+  font: var(--p);
+}
+/* Project */
+.project-section {
+  text-align: center;
+}
+
+/* Contact */
+.contact-section {
+  text-align: center;
+}
+
+.contact-section img {
+  width: 50px;
+  height: 50px;
+  padding-right: 20px;
+}
+/* Footer */
+#main-footer {
+  background-color: var(--accent);
+  color: var(--secondary);
+  padding: 20px;
+}
+
+#main-footer p {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .main {
+    width: 100%;
+    float: none;
+  }
+
+  .aside {
+    width: 100%;
+    float: none;
+  }
+
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}

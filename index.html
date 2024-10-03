@@ -2,126 +2,110 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DS</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Darshan Shakya | IT Student</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
   </head>
   <body>
-    <header>
-      <h1 class="logo" id="top"><a href="index.html">Myst</a></h1>
-      <nav>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+      <div class="nav-left">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#link-1">About</a></li>
-          <li><a href="#link-2">Images</a></li>
+          <li><a href="" id="logo">DS</a></li>
         </ul>
-      </nav>
-    </header>
+      </div>
+      <div class="nav-right">
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
-    <main>
-      <section class="about-us" id="link-1">
-        <header class="about-us__intro">
-          <h2 class="section-title">About</h2>
-        </header>
-        <div class="about-us__body">
+    <!-- Hero Section -->
+    <main class="hero-section">
+      <div class="container">
+        <div class="main">
+          <h1>Darshan Shakya</h1>
+          <h4>Information Technology Student</h4>
           <p>
-            Hi, My name is Darshan Shakya, residing in Nepal. I am a student
-            <br />
-            Enjoy Your Day!
+            I am currently pursuing my Bachelor of Information Technology (BIT)
+            as an undergraduate student at the Central Campus of Technology in
+            Dharan, Nepal. My academic journey has been complemented by a year
+            of valuable experience working as a Computer Teacher at a local
+            school. In addition to my academic and teaching responsibilities, I
+            am honored to hold the position of President within the Information
+            Technology Alliance, a student association that plays a crucial role
+            in fostering collaboration and academic growth within the faculty.
           </p>
         </div>
-      </section>
-
-      <section class="featured-photos" id="link-2">
-        <header>
-          <h2 class="section-title" id="link-3">Featured Photos</h2>
-        </header>
-        <p>
-          Hello there again, These are some of my photos which I clicked in
-          different places of my visit and stay. I hope you like them and follow
-          me in my Instagram through the link below.
-        </p>
-        <hr />
-        <br />
-        <br />
-        <br />
-        <!-- image slider start -->
-        <div class="slider">
-          <div class="slides">
-            <!-- radio button start -->
-            <input type="radio" name="radio-btn" id="radio1" />
-            <input type="radio" name="radio-btn" id="radio2" />
-            <input type="radio" name="radio-btn" id="radio3" />
-            <input type="radio" name="radio-btn" id="radio4" />
-            <input type="radio" name="radio-btn" id="radio5" />
-
-            <!-- radio button end -->
-            <!-- slide img start -->
-            <div class="slide first">
-              <img src="./assets/landscape_3.jpeg" alt="" />
-            </div>
-            <div class="slide">
-              <img src="./assets/moon_1.JPG" alt="" />
-            </div>
-            <div class="slide">
-              <img src="./assets/culture_1.jpeg" alt="" />
-            </div>
-            <div class="slide">
-              <img src="./assets/cat_2.jpeg" alt="" />
-            </div>
-            <div class="slide">
-              <img src="./assets/flower_1.JPG" alt="" />
-            </div>
-
-            <!-- slide img end -->
-
-            <!-- manual navigation start -->
-            <div class="navigation-manual">
-              <label for="radio1" class="manual-btn"></label>
-              <label for="radio2" class="manual-btn"></label>
-              <label for="radio3" class="manual-btn"></label>
-              <label for="radio4" class="manual-btn"></label>
-              <label for="radio5" class="manual-btn"></label>
-            </div>
-            <!-- manual nav stop -->
+        <div class="aside"><img src="img/darshan.jpeg" alt="" srcset="" /></div>
+      </div>
+    </main>
+    <!-- Skills Section -->
+    <div id="skills" class="skills-section container">
+      <h2>Skills</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <ul>
+              <li>Software Project Management</li>
+              <li>Web Development</li>
+              <li>Data Structure</li>
+            </ul>
           </div>
         </div>
-        <!-- image slider end -->
-        <br />
-        <p class="para-link">
-          For more images, Visit my Instagram
-          <a href="https://www.instagram.com/darshanshakyaz/" target="_blank"
-            >here</a
-          >.
-        </p>
-        <p class="para-link">*Tap on the circle to swipe through the photos*</p>
-        <hr />
-      </section>
-    </main>
 
-    <footer>
-      <ul class="footer-nav">
-        <li><a href="index.html">Home</a></li>
-        <li>
-          <a href="https://www.instagram.com/darshanshakyaz/" target="_blank"
-            >Instagram</a
-          >
-        </li>
-        <li>
-          <a href="www.linkedin.com/in/darshan-shakya" target="_blank"
-            >LinkedIn</a
-          >
-        </li>
-        <a href="mailto: mail@darshanshakya.com.np">Send Feedback</a>
-        <br />
-        <br />
-        <p>
-          ALL RIGHTS RESERVED.
-          <br />
-          COPYRIGHT&copy;2021
-        </p>
-      </ul>
+        <div class="column">
+          <div class="card">
+            <ul>
+              <li>C/C++</li>
+              <li>MySQL</li>
+              <li>PHP</li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <ul>
+              <li>Laravel</li>
+              <li>Latex</li>
+              <li>Software Engineering</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Projects -->
+    <div id="projects" class="project-section container">
+      <h2>Projects</h2>
+      <p>Uploading Soon....</p>
+    </div>
+    <!-- Contact Section -->
+    <div id="contact" class="contact-section container">
+      <h2>Get in Touch</h2>
+      <p>Feel free to message me.</p>
+      <a href="https://www.instagram.com/darshanshakyaz/"
+        ><img src="img/icons8-instagram-old.svg" alt="instagram-link"
+      /></a>
+
+      <a href="https://www.linkedin.com/in/darshanshakyaz"
+        ><img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg"
+          alt="linked-link"
+      /></a>
+    </div>
+    <!-- footer -->
+    <footer id="main-footer">
+      <p>&copy; Copyright 2024 Darshan Shakya. All Rights Reserved.</p>
     </footer>
   </body>
 </html>
